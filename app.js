@@ -3,11 +3,11 @@ function test(args){
   let leftSum = 0;
   let rightSum = 0;
 
-  for(var i = 1; i <= n; i++){
+  for(let i = 1; i <= n; i++){
     let currentNum = args[i];
     leftSum += currentNum;
   }
-  for(var j = n + 1; j < args.length; j++){
+  for(let j = n + 1; j < args.length; j++){
     let currentNums = args[j];
     rightSum += currentNums;
   }
